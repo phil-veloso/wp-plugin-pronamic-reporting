@@ -1,0 +1,36 @@
+#wp-admin-plugin-page-root {
+  padding: 20px 20px 20px 0;
+}
+
+.pronamic-reporting * {
+  box-sizing: border-box;
+}
+.pronamic-reporting {
+  border: 1px solid #ddd;
+}
+
+.pronamic-reporting:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.pronamic-reporting > div {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 30px;
+  height: 138px;
+}
+
+.pronamic-reporting > div:first-child {
+  border-right: 1px solid #ddd;
+}
+
+.pronamic-reporting > div > div:first-child {
+  margin-bottom: 10px;
+}
+
+.pronamic-reporting > div button {
+  margin-bottom: 6px;
+}
